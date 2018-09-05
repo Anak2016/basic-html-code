@@ -1,0 +1,7 @@
+        Unix/Putty/SSH username: awannaphasch2016
+        Unix/Putty/SSH password: pBOJHjCUCU
+
+        MySQL/phpMyAdmin username: awannaphasch2016
+        MySQL/phpMyAdmin password: pBOJHjCUCU
+
+lamp.cse.fau.edu.	

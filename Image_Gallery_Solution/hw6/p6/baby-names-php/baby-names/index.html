@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <h1>Baby names</h1>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div>
+          <h1>boys</h1>
+          <ol id="boys-names">
+          </ol>
+        </div>
+      </div>
+      <div class="col">
+          <div>
+            <h1>girls</h1>
+            <ol id="girls-names"></ol>
+          </div>
+        </div>
+    </div>
+
+    <div class="row">
+      <h1>VOTE</h1>
+      <form action="./functions.php">
+        <input type="text" name="newname" id="" placeholder="Create new name">
+        <input type="button" value="Create">
+      </form>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="row">
+            <h1>SEARCH</h1>
+            <form action="./functions.php">
+                <input type="text" name="search-input" id="search-id" placeholder="Search for names to vote">
+            </form>
+  
+        </div>
+          <div class="row" >
+              <h1>girls</h1>
+              <ol id="searched-names">
+              </ol>
+          </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <button id="create-table">Create Table</button>
+      <button id="seed-file">Read and Seed from File</button>
+      <button id="seed-dumb">Seed Dummy Table</button>
+      <button id="delete-table">Delete Table</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  <script src='./main.js'></script>
+
+</body>
+</html>

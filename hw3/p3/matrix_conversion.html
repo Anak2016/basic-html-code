@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="matrix_conversion.css">
+	<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet"> 
+	<title>Matrix Control</title>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Matrix Control</h1>
+		</div>
+		
+		<!-- set space for calculator to be on the left of container -->
+		<div class= "row" >
+			
+			<div class="col-lg-6">
+				<div class="row" id="box">
+					<!-- input -->
+					<table>
+						<tr>
+							<td>Enter:</td>
+							<td><input type="text" id="input_text"/></td> 
+						</tr>
+					</table>
+				</div>	
+					<!-- set of button  -->
+				<div class ="row" id="buttons">					
+					<input type="button" id="i_to_f" name="button" value="Inches to Feet"/>
+					<input type="button" id="f_to_y" name="button" value="Feet to Yards"/><br/>
+					<input type="button" id="i_to_y" name="button" value="Inches to Yards"/>
+					<input type="button" id="f_to_i" name="button" value="Feet to Inches"/><br/>
+					<input type="button" id="y_to_f" name="button" value="Yards to Feet"/>
+					<input type="button" id="y_to_i" name="button" value="Yards to Inches"/><br/>				
+				</div>
+				<!-- set space for convertion ratio and example to be on the right of container -->
+				<div class="row" id="box">
+					<!--output-->
+					<table>
+						<tr>
+							<td >Decimal result :</td>
+							<td><input type="text" id="result" readonly/></td> 
+						</tr>
+
+					</table>
+				</div>
+			</div>
+			<!-- set space for calculator to be on the left of container -->
+			<div class="col-lg 6">
+				<!-- conversion ratio table -->
+				<table id="conversion_table">
+					<tr >
+						<th >Imperial Conversion Table</th>
+					</tr>
+					<tr>
+						<td>1 foot = 12 inches</td>
+					</tr>
+					<tr>
+						<td>1 yard = feed = 36 inches</td>
+					</tr>
+				</table>
+				<!-- example and explaination of how to manually solve convertion -->
+				<h2>Example:</h2> 
+				<p>
+					How long is 25 inches in feet?<br/>
+
+					What we know: that 1 foot is equal to 12 inches.<br/>
+
+					<div id="equation">1 inches = (1/12)ft = 0.083 ft</div><br/>
+
+					<span>Therefore,</span><br/>
+
+					<div id="equation">25 inches = (25 x 0.083) ft = 2.083 ft</div>
+				</p>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+</div>
+</div>
+<script src="matrix_conversion.js"></script>
+</body>
+</html>

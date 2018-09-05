@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      
+    <meta charset="UTF-8"/>
+    <title>JavaScript Measurement Converter</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">  
+      
+  </head>
+
+<!-- ---^ css file links ^----v conversions v----------------------------------------------- -->    
+  <body>     
+    <section id="Conversion" class="conversion-section">
+        <div class="container">
+            <div class="row">
+                <!-- -------- Top Panel -------- -->
+                <div class="col-lg-12">
+                   <h1>US Customary Conversions</h1>
+                    <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/7301-200.png"/>
+                    <hr>
+                    <div class="row">
+                        <div class="bottom-panels">
+                            <!-- -------- Left Panel -------- -->
+                            <div class="col-md-4">
+                                <div class="panel planel-default">
+                                    <h2>Original Measurement:</h2>
+                                    <p>
+                                      <input type="text" id="measurement" /> 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- -------- Center Panel -------- -->                
+                            <div class="col-md-4">
+                                <div class="panel planel-default">
+                                    <h2>Conversions:</h2>
+                                        <p>
+                                          <input type="button" id="in_to_ft" value="Inches to Feet" />
+                                          <input type="button" id="ft_to_yd" value="Feet to Yards" /> 
+                                          <input type="button" id="in_to_yd" value="Inches to Yards" />   
+                                          <input type="button" id="ft_to_in" value="Feet to Inches" />
+                                          <input type="button" id="yd_to_ft" value="Yards to Feet" /> 
+                                          <input type="button" id="yd_to_in" value="Yards to Inches" />  
+                                        </p>    
+                                </div>
+                            </div>
+
+                            <!-- -------- Right Panel -------- -->        
+                            <div class="col-md-4">
+                                <div class="panel planel-default">
+                                    <h2>Results:</h2>
+                                    <div class="converted-result"></div>
+                                        <p id="result"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+<!-- ---^ conversions ^----v js file links v------------------------------------------------ -->  
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>      
+    
+    <!-- Conversation JavaScript -->
+    <script src="js/conversion.js"></script>
+      
+  </body>
+</html>

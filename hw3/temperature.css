@@ -1,0 +1,51 @@
+h2{
+	/*margin-left: 20%;*/
+	text-align: center;
+	border-bottom: 5px solid black;
+	padding-bottom: 20px;
+
+}
+
+table{
+	margin: 0 auto;
+}s
+
+#answer{
+	width:  458.4px;
+	text-align: center;
+	margin: 0 auto;
+	/*margin-left: 50px;
+	padding-left: 50px;*/
+	border: 3px solid green;
+}
+#i_to_f, #f_to_y, #i_to_y,#f_to_i,#y_to_f,#y_to_i{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.calculation{
+	padding: 20px 0;
+	border: 3px solid red;
+}
+
+.#input_text{
+	/*margin: 5px 20px;*/
+	/*margin-left: 500px;
+	margin-right: 500px;
+	margin-bottom: 500px;
+	margin-top: 500px;*/
+	padding: 500px 500px;
+}
+
+#result{
+	margin: 5px 20px;
+}
+
+.container{
+	border: 3px solid black;
+}
+
+
+
+

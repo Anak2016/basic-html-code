@@ -1,0 +1,59 @@
+	
+body{
+	background: #EB3349;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.container{
+	width: 1082px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+h1{
+
+	text-align: center;
+}
+.jumbotron{
+	background-color:transparent !important;
+	border-bottom:solid black 1px;
+
+}
+
+
+label{
+	font-size: 14pt;
+}
+
+#amount, #form_currency, #to_currency, #convert, #convert_amount{
+	height: 50px;
+	font-size: 14pt;
+	margin-top: 15px;
+}
+
+
+#amount{
+	text-align:center;
+}
+/*table{
+	border:none;
+	border-collapse: collapse;
+	border-collapse: separate;
+	border-radius: 12px;
+	border:solid black 1px ;
+
+	margin: 0 auto;
+	}*/
+	.form_currency, .to_currency{
+		-webkit-appearance: none;
+	}
+	table, tr, td{
+		/*border-top:solid black 1px;*/
+		border:none !important;
+		text-align: center;
+	}
+
+
